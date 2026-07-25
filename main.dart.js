@@ -50710,8 +50710,8 @@ B.b.bv(q,b7)
 b5=$.e===B.c?"What is the median of "+B.b.aJ(q,a9)+"?":"Median dari "+B.b.aJ(q,a9)+" adalah?"
 p=a7.eQ(k,b7)
 o=$.e===B.c?"Median = the middle value after sorting.":"Median = nilai tengah setelah data diurutkan."
-return new A.aF(B.c7,b5,""+k,p,B.w,"Median",o,a8,a8,0,0,!1)}else{j=a7.aa(b7,2,6)
-i=j+a7.aa(b7,3,8)
+return new A.aF(B.c7,b5,""+k,p,B.w,"Median",o,a8,a8,0,0,!1)}else{j=a7.aa(b7,5,40)
+i=j+a7.aa(b7,6,Math.max(9,B.d.N(25*b8)))
 b5=j+1
 p=i-1
 q=A.b([j,a7.aa(b7,b5,p),a7.aa(b7,b5,p),i],t.t)
@@ -50724,9 +50724,10 @@ n=o?"Range":"Jangkauan"
 g=""+i
 f=""+j
 o=o?"Range = largest value \u2212 smallest value = "+g+" \u2212 "+f+".":"Jangkauan = nilai terbesar \u2212 nilai terkecil = "+g+" \u2212 "+f+"."
-return new A.aF(B.c7,b5,""+h,p,B.w,n,o,a8,a8,0,0,!1)}}e=Math.max(6,B.d.N(8*b8)+2)
+return new A.aF(B.c7,b5,""+h,p,B.w,n,o,a8,a8,0,0,!1)}}j=1+(b5-1)*2
+e=Math.max(j+6,B.d.N((6+4*b5)*b8)+2)
 d=A.aA(t.S)
-for(b5=e-1+1,p=e<=1;d.a<4;)d.C(0,p?1:1+b7.a9(b5))
+for(b5=e-j+1,p=e<=j;d.a<4;)d.C(0,p?j:j+b7.a9(b5))
 c=A.X(d,d.$ti.c)
 B.b.bv(c,b7)
 b5=A.b([],t.s)
