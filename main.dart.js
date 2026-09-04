@@ -9040,6 +9040,7 @@ r=B.d.cW(A.dJ(a.h(0,"kelas_max")))
 A.wh(A.m(a.h(0,"starts_at"))).a78()
 A.wh(A.m(a.h(0,"ends_at"))).a78()
 q=J.e(a.h(0,"is_practice"),!0)
+J.e(a.h(0,"practice_closed"),!0)
 p=t.S
 o=A.B(p,p)
 n=(j==null?B.dQ:j).gh0()
@@ -9060,6 +9061,7 @@ case"unknown_nomor":return $.c===B.c?"That participant number is not on this ses
 case"already_started":return $.c===B.c?"This number is already in use on another computer. Call the staff.":"Nomor ini sudah dipakai di komputer lain. Panggil panitia."
 case"already_submitted":return $.c===B.c?"This number has already finished.":"Nomor ini sudah selesai mengerjakan."
 case"time_up":return $.c===B.c?"Time is up.":"Waktu sudah habis."
+case"practice_closed":return $.c===B.c?"Practice is closed for now \u2014 a competition is running.":"Latihan ditutup sementara \u2014 lomba sedang berlangsung."
 case"not_signed_in":return $.c===B.c?"Could not reach the server. Check the internet connection.":"Tidak bisa terhubung ke server. Periksa koneksi internet."
 default:return $.c===B.c?"Something went wrong. Try again.":"Ada gangguan koneksi. Coba lagi."}},
 aO_(a){var s,r
@@ -9075,8 +9077,8 @@ _.b=a
 _.c=b
 _.d=c
 _.r=d
-_.w=e
-_.x=f},
+_.x=e
+_.y=f},
 DQ:function DQ(a,b,c,d,e,f,g,h){var _=this
 _.a=a
 _.b=b
@@ -55843,8 +55845,8 @@ p=A.T(51,p.m()>>>16&255,p.m()>>>8&255,p.m()&255)
 o=A.af(20)
 n=$.c===B.c?"PRACTICE":"LATIHAN"
 B.b.I(f,A.b([B.an,A.d6(A.aB(g,A.o(n,g,g,g,g,g,A.L(g,g,$.i.w,g,g,g,g,g,g,g,g,12,g,g,B.Y,g,g,!0,g,g,g,g,g,g,g,g),g,g),B.m,g,new A.ao(p,g,g,o,g,g,B.u),g,g,g,B.jE,g,g,g),g,g)],q))}f.push(B.fU)
-m=!d||h.e==null?g:e.w.h(0,h.e)
-l=!d||h.e==null?g:e.x.h(0,h.e)
+m=!d||h.e==null?g:e.x.h(0,h.e)
+l=!d||h.e==null?g:e.y.h(0,h.e)
 d=$.i.c
 d=A.T(B.d.N(178.5),d.m()>>>16&255,d.m()>>>8&255,d.m()&255)
 p=A.af(18)
