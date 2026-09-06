@@ -51463,7 +51463,7 @@ ga6x(){var s=this.r
 s=s==null?null:s.b
 return s==null?"":s},
 guU(){var s=this.r
-return s!=null&&20<s.c},
+return s!=null&&21<s.c},
 gaHY(){var s,r=this,q=r.w
 if(q==null)return!1
 s=r.r
@@ -51501,7 +51501,7 @@ var $async$us=A.w(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:o.w=o.b.$0().lu(2592e8)
 m=o.r
 m=m==null?null:m.a
-o.x=m==null?20:m
+o.x=m==null?21:m
 o.X()
 s=2
 return A.j(o.xT(),$async$us)
@@ -51614,7 +51614,7 @@ n.push(A.b7(A.eD(A.o($.c===B.b?"Update":"Perbarui",l,l,l,l,l,B.adY,l,l),B.ajR,ne
 return A.at(l,A.aH(A.a([p,B.aD,q,B.ae,A.aN(n,B.o,B.j,B.m,0)],o),B.R,B.j,B.m),B.l,l,l,new A.al(i.c,l,r,g,l,l,B.u),l,l,B.ajP,l,B.Sq,l,l,l)}}
 A.aLX.prototype={
 $2(a,b){var s=this.a,r=s.gxY(),q=r.r
-if(q!=null&&q.a>20)r=r.guU()||!r.gaHY()
+if(q!=null&&q.a>21)r=r.guU()||!r.gaHY()
 else r=!1
 if(!r)return B.aB
 return new A.aY(B.dZ,s.ahS(a),null)},
@@ -61298,7 +61298,7 @@ f=k.c
 f.toString
 n.push(k.age(f))
 return A.xn(n,j,j)},
-age(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=new A.aFR(),h=$.i,g=A.af(16),f=A.o("AyoMath",j,j,j,j,j,A.C(j,j,h.e,j,j,j,j,j,j,j,j,16,j,j,B.q,j,j,!0,j,j,j,j,j,j,j,j),j,j),e=$.c===B.b?"Version 1.4.1 \xb7 Free social project \xb7 MIT":"Versi 1.4.1 \xb7 Proyek sosial gratis \xb7 MIT",d=t.p
+age(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=new A.aFR(),h=$.i,g=A.af(16),f=A.o("AyoMath",j,j,j,j,j,A.C(j,j,h.e,j,j,j,j,j,j,j,j,16,j,j,B.q,j,j,!0,j,j,j,j,j,j,j,j),j,j),e=$.c===B.b?"Version 1.4.2 \xb7 Free social project \xb7 MIT":"Versi 1.4.2 \xb7 Proyek sosial gratis \xb7 MIT",d=t.p
 e=A.aN(A.a([B.ahA,B.aC,A.b7(A.aH(A.a([f,A.o(e,j,j,j,j,j,A.C(j,j,$.i.f,j,j,j,j,j,j,j,j,11.5,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j)],d),B.R,B.j,B.m),1)],d),B.o,B.j,B.m,0)
 f=A.ab_($.i.b,1)
 s=$.c===B.b?"Contact the Developer":"Kontak Pengembang"
@@ -61482,7 +61482,7 @@ l.fW(A.fS(null,null,null,null,null,B.E,null,A.o($.c===B.b?"Please write a messag
 s=1
 break}p.T(new A.az0(p))
 o=A.mh(2,"Pesan AyoMath",B.a9,!1)
-n=A.mh(2,k+"\n\n---\nAyoMath v1.4.1",B.a9,!1)
+n=A.mh(2,k+"\n\n---\nAyoMath v1.4.2",B.a9,!1)
 s=3
 return A.j(A.Nv(A.Au(null,"ayomath.games@gmail.com","subject="+o+"&body="+A.ex(n,"+","%20"),null,"mailto"),B.kr),$async$DD)
 case 3:m=b
